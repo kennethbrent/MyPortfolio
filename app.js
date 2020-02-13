@@ -13,7 +13,8 @@ app.use(express.static(publicDirectoryPath))
 app.set('view engine', 'pug')
 
 app.get('/', (req,res)=>{
-    res.render('index')
+    const projects = data.projects
+    res.render('index', {projects})
 })
 
 app.get('/about', (req,res)=>{
@@ -21,7 +22,9 @@ app.get('/about', (req,res)=>{
 })
 
 app.get('/project/:id', (req,res)=>{
-    res.render('project')
+    const projectID = req.params.id;
+    const projectData = data.projects[projectID]
+    res.render('project', {projectData})
 })
 
 app.listen(3000, () => {

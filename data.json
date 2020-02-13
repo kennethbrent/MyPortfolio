@@ -1,13 +1,58 @@
 {
     "projects": [
         {
-            "id": "",
-            "project_name": "",
+            "id": "0",
+            "project_name": "OOP Marvel Guessing Game",
+            "description": "",
+            "technologies": "HTML5, CSS, JavaScript",
+            "live_link": "",
+            "github_link": "",
+            "image_urls": ["./images/OOP_Game_thumbnail.png"]
+        },
+        {
+            "id": "1",
+            "project_name": "Random Quote Generator",
             "description": "",
             "technologies": "",
             "live_link": "",
             "github_link": "",
-            "image_urls": ""
+            "image_urls": ["./images/quote_thumbnail.png"]
+        },
+        {
+            "id": "2",
+            "project_name": "Tic Tac Toe",
+            "description": "",
+            "technologies": "",
+            "live_link": "",
+            "github_link": "",
+            "image_urls": ["./images/ticTacToe_thumbnail.png"]
+        },
+        {
+            "id": "3",
+            "project_name": "Public API requests",
+            "description": "",
+            "technologies": "",
+            "live_link": "",
+            "github_link": "",
+            "image_urls": ["./images/Public_API_thumbnail.png"]
+        },
+        {
+            "id": "4",
+            "project_name": "Pagination",
+            "description": "",
+            "technologies": "",
+            "live_link": "",
+            "github_link": "",
+            "image_urls": ["./images/paginate_thumbnail.png"]
+        },
+        {
+            "id": "5",
+            "project_name": "SMS with NodeJS",
+            "description": "",
+            "technologies": "",
+            "live_link": "",
+            "github_link": "",
+            "image_urls": ["./images/sms_thumbnail.png"]
         }
     ]
 }
