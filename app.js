@@ -21,11 +21,33 @@ app.get('/about', (req,res)=>{
     res.render('about')
 })
 
-app.get('/project/:id', (req,res)=>{
+app.get('/project/:id', (req,res, next)=>{
     const projectID = req.params.id;
     const projectData = data.projects[projectID]
+    if(!projectData){
+        const err = new Error('Page not found');
+        err.status = 404;
+        return next(err)
+    }
     res.render('project', {projectData})
 })
+
+//catch 404 and render error page
+app.use((req, res, next) => {
+    const err = new Error('Page not found.')
+    err.status = 404;
+    next(err);
+})
+
+app.use(function (err, req, res, next) {
+    console.log(err.message)
+    res.render('error', {
+        status: err.status,
+        error: err.message,
+        stack: err.stack
+    })
+  })
+
 
 app.listen(3000, () => {
     console.log('Mf server is live')
