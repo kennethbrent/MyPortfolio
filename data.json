@@ -5,7 +5,7 @@
             "project_name": "OOP Character guessing game",
             "description": "Put your super hero skills to the test as you try to figure out the hidden character's name before running out of chances!",
             "technologies":  ["Javascript", "HTML5", "CSS"],
-            "live_link": "../live/characterApp/index.html",
+            "live_link": "../live/charApp/index.html",
             "github_link": "",
             "image_urls": ["./images/OOP_Game_thumbnail.png"]
         },
@@ -14,7 +14,7 @@
             "project_name": "Random Quote Generator",
             "description": "Get inspired by motivational quotes at the click of a button!",
             "technologies": ["Javascript", "HTML5", "CSS"],
-            "live_link": "../live/randomQuote/index.html",
+            "live_link": "../live/randomQ/index.html",
             "github_link": "https://github.com/kennethbrent/Random-Quote-Generator",
             "image_urls": ["./images/quote_thumbnail.png"]
         },
@@ -23,7 +23,7 @@
             "project_name": "Tic Tac Toe",
             "description": "Enjoy a classic game of Tic Tac Toe - get 3 in a row in any direction to take home the gold!",
             "technologies":  ["Javascript", "HTML5", "CSS"],
-            "live_link": "../live/ticTacToe/index.html",
+            "live_link": "../live/tickyTacky/index.html",
             "github_link": "https://github.com/kennethbrent/Tic-Tac-Toe",
             "image_urls": ["./images/ticTacToe_thumbnail.png"]
         },
@@ -32,7 +32,7 @@
             "project_name": "Public API requests",
             "description": "Using the randomuser.me API, random user data is fetched and displayed as a mock Employee Directory. Who's got skills? I do.",
             "technologies": ["Javascript", "HTML5", "CSS"],
-            "live_link": "../live/public_api/index.html",
+            "live_link": "../live/API_requests/index.html",
             "github_link": "https://github.com/kennethbrent/Use-a-Public-API-to-Create-an-Employee-Directory",
             "image_urls": ["./images/Public_API_thumbnail.png"]
         },
@@ -41,7 +41,7 @@
             "project_name": "Pagination",
             "description": "Utilize the power of Javascript to paginate your data!",
             "technologies": ["Javascript", "HTML5", "CSS"],
-            "live_link": "../live/pagination/index.html",
+            "live_link": "../live/paginate/index.html",
             "github_link": "https://github.com/kennethbrent/Pagination-with-JS",
             "image_urls": ["./images/paginate_thumbnail.png"]
         }
